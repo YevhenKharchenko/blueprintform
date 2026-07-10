@@ -1,9 +1,9 @@
-.gameplay-section {
+.benefits-section {
   @include media(desktop) {
   }
 }
 
-.gameplay-bg-wrapper {
+.benefits-bg-wrapper {
   padding-top: 50px;
   padding-bottom: 50px;
   max-width: 375px;
@@ -16,37 +16,27 @@
   }
 }
 
-.gameplay-container {
+.benefits-container {
   @include media(desktop) {
   }
 }
 
-.gameplay-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-
-  @include media(desktop) {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap: 64px;
-  }
-}
-
-.gameplay-text-wrapper {
-  @include media(desktop) {
-    width: 100%;
-    max-width: 915px;
-  }
-}
-
-.gameplay-title {
+.benefits-content-wrapper {
   @include media(desktop) {
   }
 }
 
-.gameplay-top-text {
+.benefits-text-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.benefits-title {
+  @include media(desktop) {
+  }
+}
+
+.benefits-top-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -58,26 +48,26 @@
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 40px;
   }
 }
 
-.gameplay-list {
+.benefits-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 
   @include media(desktop) {
-    align-items: center;
-    gap: 20px;
+    gap: 40px;
   }
 }
 
-.gameplay-list-item {
+.benefits-list-item {
   @include media(desktop) {
   }
 }
 
-.gameplay-item-text {
+.benefits-item-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -87,16 +77,5 @@
   @include media(desktop) {
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
-  }
-}
-
-.gameplay-img {
-  margin-left: auto;
-  margin-right: auto;
-
-  @include media(desktop) {
-    margin: 0;
-    min-width: 333px;
   }
 }

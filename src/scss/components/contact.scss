@@ -1,0 +1,135 @@
+.contact-section {
+  background: #632c7a;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-section-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 1440px;
+  }
+}
+
+.contact-container {
+  @include media(desktop) {
+  }
+}
+
+.contact-content-wrapper {
+  box-shadow:
+    0 8px 10px -6px rgba(0, 0, 0, 0.1),
+    0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  background: #eccee2;
+  border: 1px solid #e5e7eb;
+  border-radius: 24px;
+  padding: 19px 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include media(desktop) {
+    padding: 63px 104px;
+    max-width: 896px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.contact-icon-wrapper {
+  background: #632c7a;
+  border-radius: 33554400px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 32px;
+  }
+}
+
+.message-icon {
+  @include media(desktop) {
+  }
+}
+
+.contact-title {
+  @include media(desktop) {
+    margin-bottom: 32px;
+  }
+}
+
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #010101;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 32px;
+  }
+}
+
+.contact-email-link {
+  box-shadow:
+    0 4px 6px -4px rgba(0, 0, 0, 0.1),
+    0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background: #632c7a;
+  border-radius: 33554400px;
+  padding: 13px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  max-width: max-content;
+
+  @include media(desktop) {
+    border-radius: 24px;
+    padding: 20px 40px;
+    gap: 10px;
+  }
+}
+
+.contact-text-span {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  color: #fff;
+  min-width: 192px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.33333;
+  }
+}
+
+.contact-arrow-span {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  text-align: center;
+  color: #fff;
+
+  @include media(desktop) {
+  }
+}

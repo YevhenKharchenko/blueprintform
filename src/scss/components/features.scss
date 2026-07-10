@@ -1,17 +1,20 @@
 .features-section {
+  background: #632c7a;
+
   @include media(desktop) {
   }
 }
 
 .features-section-wrapper {
-  padding-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 
   @include media(desktop) {
-    padding-top: 100px;
+    padding-top: 64px;
+    padding-bottom: 64px;
     max-width: 1440px;
   }
 }
@@ -22,6 +25,8 @@
 }
 
 .features-title {
+  color: #fff;
+
   @include media(desktop) {
   }
 }
@@ -31,7 +36,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
-  color: #010101;
+  text-align: center;
+  color: #fff;
   margin-bottom: 20px;
 
   @include media(desktop) {
@@ -65,6 +71,22 @@
 
   @include media(desktop) {
     padding: 23px 22px;
+  }
+}
+
+.features-item-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #010101;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    line-height: 1.3125;
+    text-align: left;
   }
 }
 

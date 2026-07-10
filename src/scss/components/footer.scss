@@ -1,25 +1,22 @@
 .footer {
-  background: #25333a;
+  background: #632c7a;
 
   @include media(desktop) {
   }
 }
 
 .footer-bg-wrapper {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   @include media(desktop) {
-    padding-top: 62px;
-    padding-bottom: 62px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 .footer-container {
-  padding: 0 16px;
-
   @include media(desktop) {
-    padding: 0 152px;
   }
 }
 
@@ -47,38 +44,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 56px;
 
   @include media(desktop) {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    min-width: 352px;
   }
 }
 
 .footer-list-item {
-  &:first-child {
-    position: relative;
-
-    &::after {
-      content: '|';
-      font-family: 'Fredoka', sans-serif;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 1.28571;
-      text-align: center;
-      color: #fff;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: -14px;
-    }
-  }
-
   @include media(desktop) {
-    &:first-child {
-      &::after {
-        font-size: 18px;
-        line-height: 1.33333;
-      }
-    }
   }
 }
 
@@ -86,8 +63,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
   text-align: center;
@@ -100,8 +77,8 @@
 }
 
 .footer-text {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
   text-align: center;
